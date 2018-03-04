@@ -1,0 +1,31 @@
+name:                haskell-matrix
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/nerfingen/haskell-matrix#readme
+license:             BSD3
+author:              Dennis Frieberg
+maintainer:          dennis@frieberg.de
+copyright:           2018 Dennis Frieberg
+category:            Network
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - bytestring
+  - http-conduit
+  - http-client
+  - http-client-tls
+
+
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - Matrix
+
+#executables:
+#  haskell-matrix:
+#    source-dirs:      src
+#    main:             Main.hs
